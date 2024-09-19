@@ -1,0 +1,31 @@
+/* Body setup */
+body {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
+}
+
+/* Main content area */
+main {
+    display: flex;
+    flex-direction: row;
+    flex: auto;
+}
+
+/* Article section */
+article {
+    flex: 2;
+    overflow-y: auto;
+}
+
+/* Aside section */
+aside {
+    flex: 1;
+    overflow-y: auto;
+}
+
+/* Header and footer */
+header, footer {
+    flex: none;
+}
