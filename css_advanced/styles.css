@@ -404,15 +404,40 @@ header ul li a {
 }
 
 
-/* Footer */
+/* Footer Styles */
 footer {
-    text-align: center;
-    padding: 20px;
-    background-color: #222;
-    color: white;
+    background-color: #201b2c; /* Deep purple background */
+    padding: 20px 0; /* Vertical padding */
 }
 
-footer p {
-    margin: 0;
+/* Footer Content */
+.footer-content {
+    display: flex;
+    justify-content: space-between; /* Space between logo and social icons */
+    align-items: center; /* Center items vertically */
+    max-width: 1200px; /* Maximum width for the footer */
+    margin: 0 auto; /* Center the footer */
+    padding: 0 20px; /* Space on both sides */
 }
+
+/* Footer Logo Styles */
+.footer-logo img {
+    filter: brightness(0) invert(1); /* Make logo white */
+    margin-right: 10px; /* Space between logo and text */
+}
+
+/* Social Icons Styles */
+.footer-socials i {
+    color: white; /* Icon color */
+    margin-left: 15px; /* Space between icons */
+    font-size: 1.5rem; /* Adjust icon size */
+}
+
+/* Bottom Footer Text */
+.footer-bottom {
+    text-align: center; /* Center text */
+    color: rgba(255, 255, 255, 0.7); /* White text with transparency */
+    margin-top: 10px; /* Space above text */
+}
+
 
