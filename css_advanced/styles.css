@@ -362,6 +362,47 @@ header ul li a {
     background-color: #661d99; /* Darker purple on hover */
 }
 
+/* General Styles for FAQ Section */
+.faq-section {
+    text-align: center; /* Center the title */
+    padding: 20px;
+}
+
+/* Container for FAQ Items */
+.faq-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; /* Center items */
+    gap: 20px; /* Space between items */
+    max-width: 1200px; /* Maximum width for the FAQ section */
+    margin: 0 auto; /* Center the container */
+}
+
+/* Individual FAQ Item Styles */
+.faq-item {
+    flex: 0 1 calc(50% - 20px); /* 2 items per row with gap adjustment */
+    background: #f9f9f9; /* Light background for each item */
+    padding: 15px;
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    min-height: 120px; /* Minimum height to ensure visibility */
+    box-sizing: border-box; /* Include padding and border in element's total width and height */
+}
+
+/* Title Alignment */
+.faq-item h3 {
+    margin: 0; /* Remove default margin */
+    text-align: left; /* Align title to the left */
+    font-weight: bold; /* Bold titles */
+}
+
+/* Paragraph Styles */
+.faq-item div {
+    margin-top: 10px; /* Space between title and content */
+    text-align: left; /* Align text to the left */
+    line-height: 1.5; /* Improve readability */
+}
+
 
 /* Footer */
 footer {
