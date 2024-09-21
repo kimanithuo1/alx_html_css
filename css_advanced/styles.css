@@ -184,6 +184,90 @@ header ul li a {
     margin-top: 5px;
 }
 
+/* Most Popular Tutorials Section */
+.tutorials-section {
+    background-color: #f5f5f5; /* Light grey background for contrast */
+    padding: 60px 0;
+    text-align: center;
+}
+
+.tutorials-section h2 {
+    font-size: 36px;
+    color: #333;
+    margin-bottom: 40px;
+}
+
+.tutorial-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 20px; /* Spacing between tutorial cards */
+}
+
+.tutorial-card {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    text-align: center;
+}
+
+.tutorial-card img {
+    width: 100%;
+    height: 180px;
+    border-radius: 10px;
+    object-fit: cover;
+}
+
+.tutorial-card h3 {
+    font-size: 24px;
+    color: #4A4A4A;
+    margin-top: 20px;
+}
+
+.tutorial-card p {
+    font-size: 16px;
+    color: #777;
+    margin: 10px 0;
+}
+
+.tutorial-author {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 15px;
+}
+
+.tutorial-author img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.tutorial-author h4 {
+    font-size: 18px;
+    color: #333;
+}
+
+.tutorial-rating {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.tutorial-rating i {
+    color: #FFD700; /* Gold color for stars */
+    margin: 0 2px;
+}
+
+.tutorial-time {
+    font-size: 16px;
+    color: #999;
+    margin-top: 10px;
+}
+
 
 /* Footer */
 footer {
