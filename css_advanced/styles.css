@@ -126,6 +126,65 @@ header ul li a {
     color: #ccc;
 }
 
+/* Quotes Section */
+.quote-section {
+    background-color: #A24EFF; /* Purple background matching your image */
+    padding: 50px 0;
+    display: flex;
+    justify-content: center;
+}
+
+.quote-container {
+    max-width: 1100px; /* Adjust width based on content */
+    background-color: #A24EFF; /* Match section background */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    border-radius: 15px; /* Rounded corners */
+}
+
+.quote-img-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.quote-img {
+    border-radius: 50%; /* Circular image */
+    width: 120px;
+    height: 120px;
+    object-fit: cover;
+    margin-right: 30px; /* Add spacing between image and text */
+    border: 5px solid white; /* Add white border to image */
+}
+
+.quote-text-container {
+    text-align: left;
+    color: white;
+}
+
+.quote-text {
+    font-size: 24px;
+    font-style: italic;
+    line-height: 1.5;
+    margin-bottom: 15px;
+}
+
+.quote-author {
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 10px;
+    color: white;
+}
+
+.quote-role {
+    font-size: 16px;
+    color: #d1c4e9; /* Lighter text for role */
+    margin-top: 5px;
+}
+
+
 /* Footer */
 footer {
     text-align: center;
@@ -137,3 +196,4 @@ footer {
 footer p {
     margin: 0;
 }
+
